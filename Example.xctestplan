@@ -1,0 +1,44 @@
+{
+  "configurations" : [
+    {
+      "id" : "200A28B5-1673-4BED-BD8D-5EB9A07106D1",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Example.xcodeproj",
+      "identifier" : "4330F0FD2BFD677200CE329F",
+      "name" : "Example"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Example.xcodeproj",
+        "identifier" : "4330F10D2BFD677300CE329F",
+        "name" : "ExampleTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Example.xcodeproj",
+        "identifier" : "4330F1172BFD677300CE329F",
+        "name" : "ExampleUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Network",
+        "identifier" : "NetworkTests",
+        "name" : "NetworkTests"
+      }
+    }
+  ],
+  "version" : 1
+}
