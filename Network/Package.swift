@@ -41,7 +41,6 @@ let package = Package(
       name: "NetworkTests",
       dependencies: [
         "Network",
-        .product(name: "Macros", package: "Macros"),
       ]),
   ]
 )
